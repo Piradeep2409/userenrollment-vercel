@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get("/com.apple.remotemanagement", (req, res) => {
 
-  const responseText = '{"Servers":[{"Version":"mdm-byod","BaseURL":"https://sathish-19194.csez.zohocorpin.com:8443/mdm/client/v1/enroll?encapiKey=f6f6aa5d&templateToken=3ba3050924d40745e35aca0e29ff5abf"}]}'
+  const responseText = '{"Servers":[{"Version":"mdm-byod","BaseURL":"https://10.53.76.135:8443/mdm/client/v1/enroll?encapiKey=8a50fec&templateToken=6081165d5b92f22ec9861613c46c7560"}]}'
   const inputStream = Buffer.from(responseText);
 
   const responseHeaders = {
